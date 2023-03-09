@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="css/cv.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body onload="openSeccion('persona')">
+    <div id="particles-js"></div>
+    <main id="principal">
+
+        <div class="cv-body">
+            <div class="persona">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="">
+                <h1>Roberto Perez</h1>
+                <h2>Senior Front-End</h2>
+            </div>
+            <table class="cv-table">
+                <tr class="openSection">
+                    <th onclick="openSeccion('informacion-personal')">Información personal</th>
+                    <th onclick="openSeccion('experiencia')">Experiencia</th>
+                    <th onclick="openSeccion('habilidades')">Habilidades</th>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div class="seccion" id="informacion-personal">
+                            <section class="personal-info">
+                                <h2>Datos Personales</h2>
+                                <ul>
+                                    <li><span>Nombre:</span> Juan Pérez</li>
+                                    <li><span>Edad:</span> 30 años</li>
+                                    <li><span>Estado Civil:</span> Soltero</li>
+                                    <li><span>Nacionalidad:</span> Mexicana</li>
+                                    <li><span>Lugar de residencia:</span> Ciudad de México</li>
+                                    <li><span>Dirección:</span> Av. Ejemplo #123, Col. Ejemplo, CP 12345, Ciudad de
+                                        México</li>
+                                    <li><i class="fas fa-envelope"></i><span>Email:</span> <a
+                                            href="mailto:tucorreo@mail.com">tucorreo@mail.com</a></li>
+                                    <li><i class="fas fa-phone"></i><span>Teléfono:</span> <a
+                                            href="tel:+123456789">+123456789</a></li>
+                                    <li><i class="fab fa-linkedin"></i><span>LinkedIn:</span> <a
+                                            href="https://www.linkedin.com/in/tuperfil/">linkedin.com/in/tuperfil/</a>
+                                    </li>
+                                    <li><i class="fab fa-instagram"></i><span>Instagram:</span> <a
+                                            href="https://www.instagram.com/tucuenta/">@tucuenta</a></li>
+                                    <li><i class="fab fa-twitter"></i><span>Twitter:</span> <a
+                                            href="https://twitter.com/tucuenta/">@tucuenta</a></li>
+                                    <li><i class="fab fa-twitch"></i><span>Twitch:</span> <a
+                                            href="https://www.twitch.tv/tucuenta/">twitch.tv/tucuenta</a></li>
+                                    <li><i class="fab fa-facebook"></i><span>Facebook:</span> <a
+                                            href="https://www.facebook.com/tucuenta/">facebook.com/tucuenta</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class=" seccion" id="experiencia">
+                            <ul>
+                                <li>
+                                    <h4>Front-End Developer</h4>
+                                    <em>Sept 2015 – Present</em>
+                                    <ul>
+                                        <li> Coordinar con el equipo de desarrollo web para diseñar interfaces de
+                                            usuario para sitios web de clientes utilizando HTML, JavaScript y AngularJS.
+                                        </li>
+                                        <li>Diseñar, desarrollar y codificar aplicaciones web para cuentas de clientes,
+                                            lo que incluye la depuración de problemas, el diagnóstico de causas raíz y
+                                            la identificación de soluciones.</li>
+                                        <li>Cree diseños receptivos para aplicaciones móviles, estructuras alámbricas
+                                            construidas y prototipos desarrollados para proyectos de desarrollo web.
+                                        </li>
+                                    </ul>
+                                </li><br>
+                                <li>
+                                    <h4>Blue Horizon Marketing</h4>
+                                    <em>Enero 2012 - Diciembre 2014</em><br><br>
+                                    <p>Asistente de marketing</p>
+                                    <ul>
+                                        <li>Desarrollo de estrategias de marketing digital para la promoción de
+                                            productos y servicios</li>
+                                        <li>Creación de contenidos para redes sociales, boletines y correo electrónico
+                                        </li>
+                                        <li>Análisis de datos y seguimiento de métricas de rendimiento de campañas de
+                                            marketing</li>
+                                        <li>Colaboración con el equipo de diseño para desarrollar materiales de
+                                            marketing creativos y efectivos</li>
+                                    </ul>
+                                </li><br>
+                                <li>
+                                    <h4>Infinite Growth Consulting</h4>
+                                    <em>Marzo 2023 - presente</em><br><br>
+                                    <p>Consultor de negocios</p>
+                                    <ul>
+                                        <li>Análisis de los procesos y operaciones empresariales para identificar áreas
+                                            de mejora y oportunidades de crecimiento</li>
+                                        <li>Desarrollo y presentación de recomendaciones de estrategias para aumentar la
+                                            eficiencia y la rentabilidad</li>
+                                        <li>Colaboración con los equipos de gestión y de operaciones para implementar
+                                            soluciones</li>
+                                        <li>Monitoreo y seguimiento de la implementación de estrategias y
+                                            recomendaciones</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="seccion" id="habilidades">
+                                <div class="progress-container">
+                                    <h4>HTML</h4>
+                                    <div class="progress-bar">
+                                        <span data-width="99%"></span>
+                                    </div>
+                                </div>
+                                <div class="progress-container">
+                                    <h4>CSS</h4>
+                                    <div class="progress-bar">
+                                        <span data-width="95%"></span>
+                                    </div>
+                                </div>
+                                <div class="progress-container">
+                                    <h4>JavaScript</h4>
+                                    <div class="progress-bar">
+                                        <span data-width="97%"></span>
+                                    </div>
+                                </div>
+                                <div class="progress-container">
+                                    <h4>BootStrap</h4>
+                                    <div class="progress-bar">
+                                        <span data-width="80%"></span>
+                                    </div>
+                                </div>
+                                <section>
+                                    <h2>Educación</h2>
+                                    <ul>
+                                        <li>
+                                            <strong>Maestría en Ciencias de la Computación</strong><br>
+                                            <em>Universidad Nacional Autónoma de México (UNAM)</em><br>
+                                            <i class="fas fa-calendar-alt"></i> 2007 - 2010<br><br>
+                                            <span><i class="fas fa-map-marker-alt"></i> Ciudad de México, México</span><br>
+                                            <span>GPA: 9.2/10</span><br>
+                                            <span>Tesis: "Desarrollo de una herramienta de inteligencia artificial para predecir el rendimiento
+                                                académico de los estudiantes"</span>
+                                        </li><br>
+                                        <li>
+                                            <strong>Licenciatura en Informática</strong><br>
+                                            <em>Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)</em><br>
+                                            <i class="fas fa-calendar-alt"></i> 2014 - 2018<br><br>
+                                            <span><i class="fas fa-map-marker-alt"></i> Monterrey, México</span><br>
+                                            <span>GPA: 8.8/10</span><br>
+                                            <span>Experiencia en proyectos de desarrollo de software y bases de datos</span>
+                                        </li>
+                                    </ul>
+                                </section>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="js/cv.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particulas.js"></script>
+</body>
+</html>

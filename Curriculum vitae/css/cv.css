@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+thml{
+    font-family: 'PT Serif', serif;
+}
+#particles-js{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    z-index: -1;
+}
+#principal{
+    color: beige;
+}
+.cv-table{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 80px;
+}
+.openSection{
+    background-color: rgb(146, 25, 226);
+}
+.persona{
+    width: 90%;
+    text-align: center;
+    margin: 5%;
+}
+.cv-body{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+ /* Estilos para la sección de información personal */
+  
+ .personal-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    color: #fcdfdf;
+  }
+  
+  .personal-info h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+  }
+  
+  .personal-info h2:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .personal-info li {
+    width: 100%;
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #b39f9f;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .personal-info li:hover {
+    background-color: #535353;
+  }
+  
+  .personal-info li span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .personal-info li a {
+    color: #fcdfdf;
+    text-decoration: none;
+  }
+  
+  .personal-info li i {
+    margin-right: 10px;
+  }
+   /* Estilos para los íconos de redes sociales */
+  
+   .personal-info li i.fab {
+    font-size: 1.5em;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .personal-info li i.fab:hover {
+    color: #0077b5; /* Azul de LinkedIn */
+  }
+  
+  .personal-info li i.fab.fa-instagram:hover {
+    color: #c13584; /* Rosa de Instagram */
+  }
+  
+  .personal-info li i.fab.fa-twitter:hover {
+    color: #1da1f2; /* Azul de Twitter */
+  }
+  
+  .personal-info li i.fab.fa-twitch:hover {
+    color: #9146ff; /* Morado de Twitch */
+  }
+  
+  .personal-info li i.fab.fa-facebook:hover {
+    color: #1877f2; /* Azul de Facebook */
+  }
+
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+
+#habilidades .progress-container {
+    margin-bottom: 25px;
+}
+
+#habilidades .progress-container h4 {
+    margin: 0 0 15px 15px;
+    letter-spacing: .5px;
+}
+
+#habilidades .progress-container .progress-bar {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 3px 4px 5px 0px rgba(204 185 185 / .75);
+}
+
+#habilidades .progress-container .progress-bar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgb(121, 54, 197) 50%, rgb(125, 50, 222) 100%);
+    transition: width .5s linear;
+}
